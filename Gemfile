@@ -31,7 +31,6 @@ end
 # Database gems
 platforms :mri, :mingw do
   group :postgresql do
-    gem "pg", ">= 0.11.0"
   end
 
   group :sqlite do
